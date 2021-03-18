@@ -71,7 +71,7 @@
 
         //06. magnific Popup Initialize
         function magnificPopupInit() {
-            $('.content a').magnificPopup({
+            $('.popup-section a').magnificPopup({
                 type: 'image',
                 gallery: {
                     enabled: true
@@ -134,3 +134,13 @@
     });
 
 })(jQuery);
+// Swiper 
+var swiper = new Swiper('.swiper-container', {
+    keyboard: {
+      enabled: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+});
