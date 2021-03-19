@@ -144,3 +144,12 @@ var swiper = new Swiper('.swiper-container', {
       prevEl: '.swiper-button-prev',
     },
 });
+var swiper = new Swiper('.swiper-container.work', {
+    keyboard: {
+      enabled: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next.work',
+      prevEl: '.swiper-button-prev.work',
+    },
+});
