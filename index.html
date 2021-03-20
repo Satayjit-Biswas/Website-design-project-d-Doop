@@ -60,17 +60,17 @@
                     <!--menu start-->
                     <ul id="menu">
                         <li class="nav-item">
-                            <a href="#" class="nav-link f_size">Home.</a>
+                            <a href="#home" class="nav-link f_size">Home.</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link f_size">About us.</a>
+                            <a href="#about" class="nav-link f_size">About us.</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link f_size">Portfolio.</a>
+                            <a href="#portfolio" class="nav-link f_size">Portfolio.</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link f_size">Blog.</a>
+                            <a href="#blog" class="nav-link f_size">Blog.</a>
                         </li>
                         <li>
                             <div class="right-bar ml_80">
@@ -79,7 +79,7 @@
                                     <option value="BN">BN</option>
                                 </select>
                                 <div class="btn">
-                                    <span>Contact Us</span>
+                                    <span><a href="#contact">Contact Us</a></span>
                                     <i class="fal fa-long-arrow-right"></i>  
                                 </div>
                             </div>
@@ -99,17 +99,17 @@
                         <!--menu start-->
                         <ul>
                             <li class="nav-item">
-                                <a href="#" class="nav-link f_size">Home.</a>
+                                <a href="#home" class="nav-link f_size">Home.</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link f_size">About us.</a>
+                                <a href="#about" class="nav-link f_size">About us.</a>
                             </li>
     
                             <li class="nav-item">
-                                <a href="#" class="nav-link f_size">Portfolio.</a>
+                                <a href="#portfolio" class="nav-link f_size">Portfolio.</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link f_size">Blog.</a>
+                                <a href="#blog" class="nav-link f_size">Blog.</a>
                             </li>
                             <li>
                             <div class="right-bar ml_80">
@@ -118,9 +118,9 @@
                                     <option value="BN">BN</option>
                                 </select>
                                 <div class="btn">
-                                    <span>Contact Us
+                                    <span><a href=".contact">Contact Us</a></span>
                                     <i class="fal fa-long-arrow-right"></i> 
-                                </span>
+                                
                                 </div>
                             </div>
                             </li>
@@ -134,7 +134,7 @@
     </header>
     <main>
         <!-- slider area  -->
-        <div class="slider-area mt_20 mb_40" style="background-image: url(img/headerbg.png);">
+        <div class="slider-area mt_20 mb_40" id="home" style="background-image: url(img/headerbg.png);">
             <div class="container">
                  <div class="row">
                     <div class="col-md-7 d-flex align-items-center">
@@ -147,10 +147,10 @@
                                 Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.
                             </p>
                             <span>
-                                <a class="btn btn_a mr_15 color_a" href="#">More About us</a>
+                                <a class="btn btn_a mr_15 f_size color_a" href="#">More About us</a>
                             </span>
                             <span>
-                                <a href="#" class="color_a btn">Get in Touch.</a>
+                                <a href="#" class="color_a btn f_size">Get in Touch.</a>
                             </span>
                         </div>
                         </div>
@@ -176,7 +176,7 @@
                             got you covered
                         </h3>
                         <span>
-                            <a class="btn btn_a mr_15 color_a" href="#">Get in Touch</a>
+                            <a class="btn btn_a mr_15 color_a f_size" href="#">Get in Touch</a>
                         </span>
                     </div>
                     <div class="col-md-4 mt_30">
@@ -203,7 +203,7 @@
                     </div>
                 </div>
                 <!-- about area  -->
-                <div class="about-area">
+                <div class="about-area" id="about">
                     <div class="row position-relative">
                         <div class="col-md-6 ">
                             <div class="about-area-left">
@@ -259,7 +259,7 @@
             </div>
         </div>
         <!-- creative work area -->
-        <div class="creative-work position-relative">
+        <div class="creative-work position-relative" id="portfolio">
             <img src="img/shap3.png" alt="" class="img-fluid shap3">
             <div class="container">
                 <h3 class="creative-work-text">
@@ -374,10 +374,81 @@
                     <div class="swiper-button-next work"></div>
                     <div class="swiper-button-prev work"></div>
                 </div>
+                <div class="see-more text-center f_size color_b mt_30">
+                    <span class="f_size">See More of These</span>
+                </div>
+            </div>
+        </div>
+        <!-- our news area  -->
+        <div class="our-new-area mt_30" id="blog">
+            <div class="container">
+                <span class="f_size color_b">BLOG STORIES</span>
+                <h3>Check Our News</h3>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="swiper-container news">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="news-box">
+                                        <p class="f_size">
+                                            New Adventure
+                                        </p>
+                                        <span class="news-date mb_25">17 march 2019</span>
+                                        <span class="new-area-text">
+                                            Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.
+                                        </span>
+                                        <div class="text-right icon">
+                                            <a href="#">
+                                                <i class="fal fa-long-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="news-box">
+                                        <p class="f_size">
+                                            New Adventure
+                                        </p>
+                                        <span class="news-date mb_25">17 march 2019</span>
+                                        <span class="new-area-text">
+                                            Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.
+                                        </span>
+                                        <div class="text-right icon">
+                                            <a href="#">
+                                                <i class="fal fa-long-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="news-box">
+                                        <p class="f_size">
+                                            New Adventure
+                                        </p>
+                                        <span class="news-date mb_25">17 march 2019</span>
+                                        <span class="new-area-text">
+                                            Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.
+                                        </span>
+                                        <div class="text-right icon">
+                                            <a href="#">
+                                                <i class="fal fa-long-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next news"></div>
+                            <div class="swiper-button-prev news"></div>
+                        </div>
+                    </div>  
+                    </div> 
+                </div>
             </div>
         </div>
         <!-- contact us area  -->
-        <div class="contact-area">
+        <div class="contact-area" id="contact">
             <div class="container">
                 <span class="f_size color_b">CONTACT US</span>
                 <h3>Get in Touch</h3>
@@ -429,9 +500,9 @@
             </div>
             <span>© 2019 - Doob,All Right Reserved</span>
             <div class="footer-icon mt_25">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-dribbble"></i>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
             </div>
         </footer>
 

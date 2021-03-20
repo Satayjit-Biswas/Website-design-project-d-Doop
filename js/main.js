@@ -61,6 +61,15 @@
             }, 1500);
         });
 
+        $('#menu li a').bind('click', function(event) {
+            var $anchor = $(this);
+            var headerH = '70';
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - headerH + "px"
+            }, 1200, 'easeInSine');
+            event.preventDefault();
+        });
+
         // Hamburger-menu
         $('.hamburger-menu').on('click', function () {
             $('.hamburger-menu .line-top, .ofcavas-menu').toggleClass('current');
@@ -152,4 +161,33 @@ var swiper = new Swiper('.swiper-container.work', {
       nextEl: '.swiper-button-next.work',
       prevEl: '.swiper-button-prev.work',
     },
+});
+var swiper = new Swiper('.swiper-container.news', {
+    slidesPerView: 3,
+    loop: true,
+    keyboard: {
+      enabled: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next.news',
+      prevEl: '.swiper-button-prev.news',
+    },
+    breakpoints: {
+        300: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        576: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+    }
 });
